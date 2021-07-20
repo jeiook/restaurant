@@ -45,9 +45,6 @@ const contact = (() => {
 	};
 	const load = (content, nav) => {
 		content.appendChild(nav);
-		const title = document.createElement("h2");
-		title.textContent = "Contact";
-		content.appendChild(title);
 		content.appendChild(contactsDOM());
 		document.body.appendChild(content);
 	};
