@@ -1,11 +1,12 @@
 import home from './home.js';
 import menu from './menu.js';
+import contact from './contact.js';
 import nav from './nav.js';
 
 const state = (() => {
 	let _content;
 	let _currentPage = home;
-	const _pageList = [home, menu/*, contact*/];
+	const _pageList = [home, menu, contact];
 	const currentPage = () => _currentPage;
 	const switchPage = (page) => {
 		_currentPage = page;
@@ -20,7 +21,7 @@ const state = (() => {
 	const pageList = () => _pageList;
 	const content = () => _content;
 	const init = () => {
-		switchPage(menu);
+		switchPage(contact);
 	};
 	return {
 		currentPage,

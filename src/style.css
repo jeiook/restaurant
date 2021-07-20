@@ -33,3 +33,16 @@ nav > button {
 .menu-title {
 	color: #fe5e5e;
 }
+
+#contact-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contact-entry {
+	display: flex;
+	flex-direction: row;
+}
