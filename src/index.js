@@ -1,4 +1,4 @@
-const div = document.createElement('div');
+import './style.css';
+import state from "./state.js";
 
-
-console.dir(content);
+state.init();
