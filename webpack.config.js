@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     home: './src/home.js',
+    menu: './src/menu.js',
     nav: './src/nav.js',
     state: './src/state.js',
   },
